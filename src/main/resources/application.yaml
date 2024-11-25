@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: BT25-11_SpringSecurityJWT_Demo3
+  datasource:
+    url: ${DBMS_CONNECTION:jdbc:mysql://localhost:3306/bt_25-11-2024_demo3}
+    username: root
+    password: ${MYSQL_ROOT_PASSWORD:}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mvc:
+    servlet:
+      load-on-startup: 1
