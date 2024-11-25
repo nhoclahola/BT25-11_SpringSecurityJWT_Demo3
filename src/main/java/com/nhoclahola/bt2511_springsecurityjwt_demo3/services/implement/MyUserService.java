@@ -38,13 +38,13 @@ public class MyUserService implements UserDetails
     @Override
     public String getPassword()
     {
-        return user.getPassword()
+        return user.getPassword();
     }
 
     @Override
     public String getUsername()
     {
-        return user.getUsername()
+        return user.getUsername();
     }
 
     @Override
